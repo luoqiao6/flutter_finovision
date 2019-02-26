@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                     children: <Widget>[
 
                       Padding(
-                        padding: EdgeInsets.only(top: 44),
+                        padding: EdgeInsets.only(top: 48),
                       ),
 
                       Container(
@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
                       ),
 
                       Padding(
-                        padding: EdgeInsets.only(top: 22),
+                        padding: EdgeInsets.only(top: 16),
                       ),
 
                       Row(
