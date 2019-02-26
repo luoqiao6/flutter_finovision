@@ -9,6 +9,7 @@ class FinoColors {
   static const Color blue177 = Color.fromARGB(255, 61, 53, 177);
   static const Color blue253 = Color.fromARGB(255, 0, 138, 253);
   static const Color blue226 = Color.fromARGB(255, 41, 171, 226);
+  static const Color blue247 = Color.fromARGB(255, 25, 221, 247);
   static const Color blue255 = Color.fromARGB(255, 43, 68, 255);
   static const Color extraBlue245 = Color.fromARGB(255, 233, 238, 245);
 

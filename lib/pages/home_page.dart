@@ -22,16 +22,19 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Stack(
           children: <Widget>[
-            /// 蓝色背景
+            /// 主要内容
             Column(
               children: <Widget>[
+
+                /// 蓝色背景
+
                 Container(
                   height: 201,
                   color: FinoColors.blue177,
                 ),
 
                 Padding(
-                  padding: EdgeInsets.only(top: 30),
+                  padding: EdgeInsets.only(top: 77),
                 ),
 
                 Container(
@@ -48,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                     children: <Widget>[
 
                       Padding(
-                        padding: EdgeInsets.only(top: 40),
+                        padding: EdgeInsets.only(top: 44),
                       ),
 
                       Container(
@@ -56,105 +59,134 @@ class _HomePageState extends State<HomePage> {
                       ),
 
                       Padding(
-                        padding: EdgeInsets.only(top: 20),
+                        padding: EdgeInsets.only(top: 22),
                       ),
 
-                      /// First Row
                       Row(
                         //crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
+
                         children: <Widget>[
+                          /// 左边
+                          Column(
+                            //mainAxisAlignment: MainAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
 
-                          Container(
-                            width: 21.2,
-                            height: 21.2,
-                            decoration: BoxDecoration(
-                              color: FinoColors.green205,
-                              shape: BoxShape.circle,
-                            ),
+                              ///
+                              Row(
+                                children: <Widget>[
+
+                                  Container(
+                                    width: 21.2,
+                                    height: 21.2,
+                                    decoration: BoxDecoration(
+                                      color: FinoColors.green205,
+                                      shape: BoxShape.circle,
+                                    ),
+                                  ),
+
+                                  Padding(
+                                    padding: EdgeInsets.only(right: 10),
+                                  ),
+
+                                  Container(
+                                    child: Text('AVAILABLE', style: FinoTextStyles.montserratBold11Blue161,),
+                                  ),
+
+                                ],
+                              ),
+
+                              Padding(
+                                padding: EdgeInsets.only(top: 8),
+                              ),
+
+                              ///
+                              Row(
+                                children: <Widget>[
+
+                                  Container(
+                                    width: 21.2,
+                                    height: 21.2,
+                                    decoration: BoxDecoration(
+                                      color: FinoColors.red255,
+                                      shape: BoxShape.circle,
+                                    ),
+                                  ),
+
+                                  Padding(
+                                    padding: EdgeInsets.only(right: 10),
+                                  ),
+
+                                  Container(
+                                    child: Text('INTEREST', style: FinoTextStyles.montserratBold11Blue161,),
+                                  ),
+
+                                ],
+                              )
+
+                            ],
                           ),
 
                           Padding(
-                              padding: EdgeInsets.only(right: 10),
+                            padding: EdgeInsets.only(right: 40),
                           ),
 
-                          Container(
-                            child: Text('AVAILABLE', style: FinoTextStyles.montserratBold11Blue161,),
-                          ),
+                          /// 右边
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
 
-                          Padding(
-                            padding: EdgeInsets.only(right: 24),
-                          ),
+                              Row(
+                                children: <Widget>[
+                                  Container(
+                                    width: 21.2,
+                                    height: 21.2,
+                                    decoration: BoxDecoration(
+                                      color: FinoColors.yellow250,
+                                      shape: BoxShape.circle,
+                                    ),
 
-                          Container(
-                            width: 21.2,
-                            height: 21.2,
-                            decoration: BoxDecoration(
-                              color: FinoColors.yellow250,
-                              shape: BoxShape.circle,
-                            ),
+                                  ),
 
-                          ),
+                                  Padding(
+                                    padding: EdgeInsets.only(right: 10),
+                                  ),
 
-                          Padding(
-                            padding: EdgeInsets.only(right: 10),
-                          ),
+                                  Container(
+                                    child: Text('DISBUSSED', style: FinoTextStyles.montserratBold11Blue161,),
+                                  ),
+                                ],
+                              ),
 
-                          Container(
-                            child: Text('DISBUSSED', style: FinoTextStyles.montserratBold11Blue161,),
-                          ),
+                              Padding(
+                                padding: EdgeInsets.only(top: 8),
+                              ),
+
+                              Row(
+                                children: <Widget>[
+                                  Container(
+                                    width: 21.2,
+                                    height: 21.2,
+                                    decoration: BoxDecoration(
+                                      color: FinoColors.blue253,
+                                      shape: BoxShape.circle,
+                                    ),
+
+                                  ),
+
+                                  Padding(
+                                    padding: EdgeInsets.only(right: 10),
+                                  ),
+
+                                  Container(
+                                    child: Text('PENULTY', style: FinoTextStyles.montserratBold11Blue161,),
+                                  ),
+                                ],
+                              )
 
 
-                        ],
-                      ),
-
-                      Padding(
-                        padding: EdgeInsets.only(top: 12),
-                      ),
-
-                      /// Second Row
-                      Row(
-                        //crossAxisAlignment: CrossAxisAlignment.center,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-
-                          Container(
-                            width: 21.2,
-                            height: 21.2,
-                            decoration: BoxDecoration(
-                              color: FinoColors.red255,
-                              shape: BoxShape.circle,
-                            ),
-                          ),
-
-                          Padding(
-                            padding: EdgeInsets.only(right: 10),
-                          ),
-
-                          Container(
-                            child: Text('INTEREST', style: FinoTextStyles.montserratBold11Blue161,),
-                          ),
-
-                          Padding(
-                            padding: EdgeInsets.only(right: 24),
-                          ),
-
-                          Container(
-                            width: 21.2,
-                            height: 21.2,
-                            decoration: BoxDecoration(
-                              color: FinoColors.blue253,
-                              shape: BoxShape.circle,
-                            ),
-
-                          ),
-
-                          Padding(
-                            padding: EdgeInsets.only(right: 10),
-                          ),
-
-                          Container(
-                            child: Text('PENULTY', style: FinoTextStyles.montserratBold11Blue161,),
+                            ],
                           ),
 
 
@@ -166,13 +198,381 @@ class _HomePageState extends State<HomePage> {
 
                 ),
 
+                Padding(
+                  padding: EdgeInsets.only(top: 26),
+                ),
+
+               Column(
+                 //crossAxisAlignment: CrossAxisAlignment.center,
+                 //mainAxisAlignment: MainAxisAlignment.center,
+                 children: <Widget>[
+                   Row(
+                     mainAxisAlignment: MainAxisAlignment.center,
+                     children: <Widget>[
+                       /// MEBERS
+                       Container(
+                         width: 150,
+                         height: 108,
+                         alignment: Alignment.center,
+                         decoration: BoxDecoration(
+                           color: FinoColors.white,
+
+                           borderRadius: BorderRadius.all(
+                             Radius.circular(19),
+                           ),
+                         ),
+
+                         child: Column(
+                           //crossAxisAlignment: CrossAxisAlignment.center,
+                           mainAxisAlignment: MainAxisAlignment.center,
+
+                           children: <Widget>[
+
+                             Container(
+                               child: SvgPicture.asset(
+                                 'res/images/member_icon.svg',
+                                 width: 48,
+                                 height: 33.6,
+                               ),
+                             ),
+
+                             Padding(
+                               padding: EdgeInsets.only(top: 20),
+                             ),
+                             Container(
+                               child: Text('MEBERS', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+                             ),
+
+                           ],
+                         ),
+                       ),
+
+                       Padding(
+                         padding: EdgeInsets.only(left: 27),
+                       ),
+
+                       /// PASSBOOK
+                       Container(
+                         width: 150,
+                         height: 108,
+                         alignment: Alignment.center,
+                         decoration: BoxDecoration(
+                           color: FinoColors.white,
+
+                           borderRadius: BorderRadius.all(
+                             Radius.circular(19),
+                           ),
+                         ),
+
+                         child: Column(
+                           //crossAxisAlignment: CrossAxisAlignment.center,
+                           mainAxisAlignment: MainAxisAlignment.center,
+
+                           children: <Widget>[
+
+                             Container(
+                               child: SvgPicture.asset(
+                                 'res/images/passbook_icon.svg',
+                                 width: 48,
+                                 height: 33.6,
+                               ),
+                             ),
+
+                             Padding(
+                               padding: EdgeInsets.only(top: 20),
+                             ),
+                             Container(
+                               child: Text('PASSBOOK', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+                             ),
+
+                           ],
+                         ),
+                       ),
+                     ],
+                   ),
+
+                   Padding(
+                     padding: EdgeInsets.only(top: 24),
+                   ),
+
+                   Row(
+                     //crossAxisAlignment: CrossAxisAlignment.center,
+                     mainAxisAlignment: MainAxisAlignment.center,
+                     children: <Widget>[
+                       /// REPORT
+                       Container(
+                         width: 150,
+                         height: 108,
+                         alignment: Alignment.center,
+                         decoration: BoxDecoration(
+                           color: FinoColors.white,
+
+                           borderRadius: BorderRadius.all(
+                             Radius.circular(19),
+                           ),
+                         ),
+
+                         child: Column(
+                           //crossAxisAlignment: CrossAxisAlignment.center,
+                           mainAxisAlignment: MainAxisAlignment.center,
+
+                           children: <Widget>[
+
+                             Container(
+                               child: SvgPicture.asset(
+                                 'res/images/report_icon.svg',
+                                 width: 48,
+                                 height: 33.6,
+                               ),
+                             ),
+
+                             Padding(
+                               padding: EdgeInsets.only(top: 20),
+                             ),
+                             Container(
+                               child: Text('REPORT', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+                             ),
+
+                           ],
+                         ),
+                       ),
+
+                       Padding(
+                         padding: EdgeInsets.only(left: 27),
+                       ),
+
+                       /// TRANSACTION
+                       Container(
+                         width: 150,
+                         height: 108,
+                         alignment: Alignment.center,
+                         decoration: BoxDecoration(
+                           color: FinoColors.white,
+
+                           borderRadius: BorderRadius.all(
+                             Radius.circular(19),
+                           ),
+                         ),
+
+                         child: Column(
+                           //crossAxisAlignment: CrossAxisAlignment.center,
+                           mainAxisAlignment: MainAxisAlignment.center,
+
+                           children: <Widget>[
+
+                             Container(
+                               child: SvgPicture.asset(
+                                 'res/images/history_icon.svg',
+                                 width: 48,
+                                 height: 33.6,
+                               ),
+                             ),
+
+                             Padding(
+                               padding: EdgeInsets.only(top: 10),
+                             ),
+                             Container(
+                               child: Column(
+                                 children: <Widget>[
+                                   Text('TRANSACTION', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+                                   Text('HISTORY', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+                                 ],
+                               ),
+                             ),
+
+                           ],
+                         ),
+                       ),
+                     ],
+                   ),
+
+                 ],
+               ),
+
+
+//                Container(
+//                  width: 327,
+//                  height: 240,
+//                  child: GridView.count(
+//                    crossAxisCount: 2,
+//                    crossAxisSpacing: 27,
+//                    mainAxisSpacing: 24,
+//                    shrinkWrap: true,
+//                    children: <Widget>[
+//
+//                      /// MEBERS
+//                      Container(
+//                        width: 150,
+//                        height: 108,
+//                        alignment: Alignment.center,
+//                        decoration: BoxDecoration(
+//                          color: FinoColors.white,
+//
+//                          borderRadius: BorderRadius.all(
+//                            Radius.circular(19),
+//                          ),
+//                        ),
+//
+//                        child: Column(
+//                          //crossAxisAlignment: CrossAxisAlignment.center,
+//                          mainAxisAlignment: MainAxisAlignment.center,
+//
+//                          children: <Widget>[
+//
+//                            Container(
+//                              child: SvgPicture.asset(
+//                                'res/images/member_icon.svg',
+//                                width: 48,
+//                                height: 33.6,
+//                              ),
+//                            ),
+//
+//                            Padding(
+//                              padding: EdgeInsets.only(top: 20),
+//                            ),
+//                            Container(
+//                              child: Text('MEBERS', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+//                            ),
+//
+//                          ],
+//                        ),
+//                      ),
+//
+//
+//                      /// PASSBOOK
+//                      Container(
+//                        width: 150,
+//                        height: 108,
+//                        alignment: Alignment.center,
+//                        decoration: BoxDecoration(
+//                          color: FinoColors.white,
+//
+//                          borderRadius: BorderRadius.all(
+//                            Radius.circular(19),
+//                          ),
+//                        ),
+//
+//                        child: Column(
+//                          //crossAxisAlignment: CrossAxisAlignment.center,
+//                          mainAxisAlignment: MainAxisAlignment.center,
+//
+//                          children: <Widget>[
+//
+//                            Container(
+//                              child: SvgPicture.asset(
+//                                'res/images/passbook_icon.svg',
+//                                width: 48,
+//                                height: 33.6,
+//                              ),
+//                            ),
+//
+//                            Padding(
+//                              padding: EdgeInsets.only(top: 20),
+//                            ),
+//                            Container(
+//                              child: Text('PASSBOOK', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+//                            ),
+//
+//                          ],
+//                        ),
+//                      ),
+//
+//                      /// REPORT
+//                      Container(
+//                        width: 150,
+//                        height: 108,
+//                        alignment: Alignment.center,
+//                        decoration: BoxDecoration(
+//                          color: FinoColors.white,
+//
+//                          borderRadius: BorderRadius.all(
+//                            Radius.circular(19),
+//                          ),
+//                        ),
+//
+//                        child: Column(
+//                          //crossAxisAlignment: CrossAxisAlignment.center,
+//                          mainAxisAlignment: MainAxisAlignment.center,
+//
+//                          children: <Widget>[
+//
+//                            Container(
+//                              child: SvgPicture.asset(
+//                                'res/images/report_icon.svg',
+//                                width: 48,
+//                                height: 33.6,
+//                              ),
+//                            ),
+//
+//                            Padding(
+//                              padding: EdgeInsets.only(top: 20),
+//                            ),
+//                            Container(
+//                              child: Text('REPORT', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+//                            ),
+//
+//                          ],
+//                        ),
+//                      ),
+//
+//
+//                      /// REPORT
+//                      Container(
+//                        width: 150,
+//                        height: 108,
+//                        alignment: Alignment.center,
+//                        decoration: BoxDecoration(
+//                          color: FinoColors.white,
+//
+//                          borderRadius: BorderRadius.all(
+//                            Radius.circular(19),
+//                          ),
+//                        ),
+//
+//                        child: Column(
+//                          //crossAxisAlignment: CrossAxisAlignment.center,
+//                          mainAxisAlignment: MainAxisAlignment.center,
+//
+//                          children: <Widget>[
+//
+//                            Container(
+//                              child: SvgPicture.asset(
+//                                'res/images/history_icon.svg',
+//                                width: 48,
+//                                height: 33.6,
+//                              ),
+//                            ),
+//
+//                            Padding(
+//                              padding: EdgeInsets.only(top: 20),
+//                            ),
+//                            Container(
+//                              child: Column(
+//                                children: <Widget>[
+//                                  Text('TRANSACTION', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+//                                  Text('HISTORY', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+//                                ],
+//                              ),
+//                            ),
+//
+//                          ],
+//                        ),
+//                      ),
+//
+//                    ],
+//                  ),
+//                ),
+
+
+
+
 
               ],
             ),
 
 
 
-            ///
+            ///顶部的 标题栏
             Padding(
               padding: EdgeInsets.only(left: 25, right: 25),
 
@@ -211,6 +611,91 @@ class _HomePageState extends State<HomePage> {
               ),
 
             ),
+
+            /// 中间的圆形
+            Container(
+              padding: EdgeInsets.only(top: 226, ),
+              alignment: Alignment.topCenter,
+              child: Stack(
+                alignment: AlignmentDirectional.center,
+                children: <Widget>[
+//                Padding(
+//                  padding: EdgeInsets.only(top: 246),
+//                  child: ,
+//                ),
+
+                  Container(
+                    width: 75,
+                    height: 75,
+                    alignment: Alignment.center,
+                    decoration: BoxDecoration(
+                      color: FinoColors.extraBlue245,
+                      shape: BoxShape.circle,
+                    ),
+                  ),
+
+                  Container(
+                    padding: EdgeInsets.only(top: 30),
+                    child: Image.asset('res/images/circle_shadow@3x.png'),
+                  ),
+
+                  Container(
+                    width: 60,
+                    height: 60,
+                    alignment: Alignment.center,
+                    decoration: BoxDecoration(
+                      //color: FinoColors.red255,
+                      gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            FinoColors.blue253,
+                            FinoColors.blue247,
+                          ]
+                      ),
+                      shape: BoxShape.circle,
+                    ),
+                    
+                    child: Text('390', style: FinoTextStyles.montserratRegular22White,),
+                    
+                  ),
+
+
+                ],
+              ),
+            ),
+
+
+            /// Logo 图形
+            Stack(
+              //alignment: Alignment.center,
+              children: <Widget>[
+                Padding(
+                  padding: EdgeInsets.only(top: 115),
+                  child: Container(
+                    alignment: Alignment.topCenter,
+                    child: SvgPicture.asset(
+                      'res/images/logo_home.svg',
+                      width: 159,
+                      //height: 401,
+                      //color: FinoColors.white,
+                    ),
+                  ),
+                ),
+
+
+                Padding(
+                  padding: EdgeInsets.only(top: 70),
+                  child: Container(
+                    alignment: Alignment.topCenter,
+                    child: Image.asset('res/images/logo_shadow@3x.png'),
+                  ),
+                ),
+
+              ],
+            ),
+
+
 
 
           ],

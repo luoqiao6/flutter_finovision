@@ -6,9 +6,9 @@
     </linearGradient>
   </defs>
   <g id="logo_home" transform="translate(-124 -115.139)">
-    <rect id="矩形_2" data-name="矩形 2" width="24" height="126.449" rx="12" transform="translate(124 115.139)" fill="#00cd00"/>
-    <rect id="矩形_3" data-name="矩形 3" width="24" height="81.167" rx="12" transform="translate(170 160.422)" fill="url(#linear-gradient)"/>
-    <rect id="矩形_5" data-name="矩形 5" width="24" height="101.167" rx="12" transform="translate(259 140.422)" fill="#ff9a14"/>
-    <rect id="矩形_4" data-name="矩形 4" width="22" height="62.789" rx="11" transform="translate(215 178.799)" fill="#008afd"/>
+    <path id="路径_22" data-name="路径 22" d="M12,0A12,12,0,0,1,24,12V114.449a12,12,0,0,1-24,0V12A12,12,0,0,1,12,0Z" transform="translate(124 115.139)" fill="#00cd00"/>
+    <path id="路径_21" data-name="路径 21" d="M12,0A12,12,0,0,1,24,12V69.167a12,12,0,0,1-24,0V12A12,12,0,0,1,12,0Z" transform="translate(170 160.422)" fill="url(#linear-gradient)"/>
+    <path id="路径_20" data-name="路径 20" d="M12,0A12,12,0,0,1,24,12V89.167a12,12,0,1,1-24,0V12A12,12,0,0,1,12,0Z" transform="translate(259 140.422)" fill="#ff9a14"/>
+    <path id="路径_19" data-name="路径 19" d="M11,0A11,11,0,0,1,22,11V51.789a11,11,0,0,1-22,0V11A11,11,0,0,1,11,0Z" transform="translate(215 178.799)" fill="#008afd"/>
   </g>
 </svg>
