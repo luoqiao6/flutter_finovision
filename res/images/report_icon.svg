@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.5" height="33.5" viewBox="0 0 33.5 33.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ad1bf"/>
+      <stop offset="1" stop-color="#119bd2"/>
+    </linearGradient>
+  </defs>
+  <path id="ic_library_books_24px" d="M5.35,8.7H2V32.15A3.36,3.36,0,0,0,5.35,35.5H28.8V32.15H5.35ZM32.15,2H12.05A3.36,3.36,0,0,0,8.7,5.35v20.1a3.36,3.36,0,0,0,3.35,3.35h20.1a3.36,3.36,0,0,0,3.35-3.35V5.35A3.36,3.36,0,0,0,32.15,2ZM30.475,17.075H13.725v-3.35h16.75Zm-6.7,6.7H13.725v-3.35h10.05Zm6.7-13.4H13.725V7.025h16.75Z" transform="translate(-2 -2)" fill="url(#linear-gradient)"/>
+</svg>

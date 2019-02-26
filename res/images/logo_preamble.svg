@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="159" height="126.449" viewBox="0 0 159 126.449">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d95d"/>
+      <stop offset="1" stop-color="#59efb6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4893"/>
+      <stop offset="1" stop-color="#fe67ad"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#17aaff"/>
+      <stop offset="1" stop-color="#19ddf7"/>
+    </linearGradient>
+  </defs>
+  <g id="logo_preamble" transform="translate(-124 -115.139)">
+    <rect id="矩形_2" data-name="矩形 2" width="24" height="126.449" rx="12" transform="translate(124 115.139)" fill="url(#linear-gradient)"/>
+    <rect id="矩形_3" data-name="矩形 3" width="24" height="81.167" rx="12" transform="translate(170 160.422)" fill="url(#linear-gradient-2)"/>
+    <rect id="矩形_5" data-name="矩形 5" width="24" height="101.167" rx="12" transform="translate(259 140.422)" fill="#ffd814"/>
+    <rect id="矩形_4" data-name="矩形 4" width="22" height="62.789" rx="11" transform="translate(215 178.799)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
