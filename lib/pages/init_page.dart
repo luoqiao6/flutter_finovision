@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_finovision/utils/finoColors.dart';
+import 'package:flutter_finovision/utils/fino_colors.dart';
 
 
 class InitPage extends StatefulWidget {

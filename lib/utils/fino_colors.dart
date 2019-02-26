@@ -4,7 +4,7 @@ class FinoColors {
 
   static const Color darkBlue68 = Color.fromARGB(255, 2, 0, 68);
 
-
+  static const Color blue161 = Color.fromARGB(255, 128, 127, 161);
   static const Color blue202 = Color.fromARGB(255, 68, 58, 202);
   static const Color blue177 = Color.fromARGB(255, 61, 53, 177);
   static const Color blue253 = Color.fromARGB(255, 0, 138, 253);

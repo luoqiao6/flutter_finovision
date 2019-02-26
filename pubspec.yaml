@@ -68,6 +68,14 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+
+  fonts:
+     - family: Montserrat
+       fonts:
+         - asset: res/fonts/Montserrat-Medium.ttf
+         - asset: res/fonts/Montserrat-SemiBold.ttf
+         - asset: res/fonts/Montserrat-Bold.ttf
+
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
