@@ -52,7 +52,7 @@ class _MainPageState extends State<MainPage> {
                     children: <Widget>[
 
                       Padding(
-                        padding: EdgeInsets.only(top: 48),
+                        padding: EdgeInsets.only(top: 46),
                       ),
 
                       Container(
@@ -60,7 +60,7 @@ class _MainPageState extends State<MainPage> {
                       ),
 
                       Padding(
-                        padding: EdgeInsets.only(top: 16),
+                        padding: EdgeInsets.only(top: 18),
                       ),
 
                       Row(
@@ -391,182 +391,6 @@ class _MainPageState extends State<MainPage> {
                ),
 
 
-//                Container(
-//                  width: 327,
-//                  height: 240,
-//                  child: GridView.count(
-//                    crossAxisCount: 2,
-//                    crossAxisSpacing: 27,
-//                    mainAxisSpacing: 24,
-//                    shrinkWrap: true,
-//                    children: <Widget>[
-//
-//                      /// MEBERS
-//                      Container(
-//                        width: 150,
-//                        height: 108,
-//                        alignment: Alignment.center,
-//                        decoration: BoxDecoration(
-//                          color: FinoColors.white,
-//
-//                          borderRadius: BorderRadius.all(
-//                            Radius.circular(19),
-//                          ),
-//                        ),
-//
-//                        child: Column(
-//                          //crossAxisAlignment: CrossAxisAlignment.center,
-//                          mainAxisAlignment: MainAxisAlignment.center,
-//
-//                          children: <Widget>[
-//
-//                            Container(
-//                              child: SvgPicture.asset(
-//                                'res/images/member_icon.svg',
-//                                width: 48,
-//                                height: 33.6,
-//                              ),
-//                            ),
-//
-//                            Padding(
-//                              padding: EdgeInsets.only(top: 20),
-//                            ),
-//                            Container(
-//                              child: Text('MEBERS', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
-//                            ),
-//
-//                          ],
-//                        ),
-//                      ),
-//
-//
-//                      /// PASSBOOK
-//                      Container(
-//                        width: 150,
-//                        height: 108,
-//                        alignment: Alignment.center,
-//                        decoration: BoxDecoration(
-//                          color: FinoColors.white,
-//
-//                          borderRadius: BorderRadius.all(
-//                            Radius.circular(19),
-//                          ),
-//                        ),
-//
-//                        child: Column(
-//                          //crossAxisAlignment: CrossAxisAlignment.center,
-//                          mainAxisAlignment: MainAxisAlignment.center,
-//
-//                          children: <Widget>[
-//
-//                            Container(
-//                              child: SvgPicture.asset(
-//                                'res/images/passbook_icon.svg',
-//                                width: 48,
-//                                height: 33.6,
-//                              ),
-//                            ),
-//
-//                            Padding(
-//                              padding: EdgeInsets.only(top: 20),
-//                            ),
-//                            Container(
-//                              child: Text('PASSBOOK', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
-//                            ),
-//
-//                          ],
-//                        ),
-//                      ),
-//
-//                      /// REPORT
-//                      Container(
-//                        width: 150,
-//                        height: 108,
-//                        alignment: Alignment.center,
-//                        decoration: BoxDecoration(
-//                          color: FinoColors.white,
-//
-//                          borderRadius: BorderRadius.all(
-//                            Radius.circular(19),
-//                          ),
-//                        ),
-//
-//                        child: Column(
-//                          //crossAxisAlignment: CrossAxisAlignment.center,
-//                          mainAxisAlignment: MainAxisAlignment.center,
-//
-//                          children: <Widget>[
-//
-//                            Container(
-//                              child: SvgPicture.asset(
-//                                'res/images/report_icon.svg',
-//                                width: 48,
-//                                height: 33.6,
-//                              ),
-//                            ),
-//
-//                            Padding(
-//                              padding: EdgeInsets.only(top: 20),
-//                            ),
-//                            Container(
-//                              child: Text('REPORT', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
-//                            ),
-//
-//                          ],
-//                        ),
-//                      ),
-//
-//
-//                      /// REPORT
-//                      Container(
-//                        width: 150,
-//                        height: 108,
-//                        alignment: Alignment.center,
-//                        decoration: BoxDecoration(
-//                          color: FinoColors.white,
-//
-//                          borderRadius: BorderRadius.all(
-//                            Radius.circular(19),
-//                          ),
-//                        ),
-//
-//                        child: Column(
-//                          //crossAxisAlignment: CrossAxisAlignment.center,
-//                          mainAxisAlignment: MainAxisAlignment.center,
-//
-//                          children: <Widget>[
-//
-//                            Container(
-//                              child: SvgPicture.asset(
-//                                'res/images/history_icon.svg',
-//                                width: 48,
-//                                height: 33.6,
-//                              ),
-//                            ),
-//
-//                            Padding(
-//                              padding: EdgeInsets.only(top: 20),
-//                            ),
-//                            Container(
-//                              child: Column(
-//                                children: <Widget>[
-//                                  Text('TRANSACTION', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
-//                                  Text('HISTORY', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
-//                                ],
-//                              ),
-//                            ),
-//
-//                          ],
-//                        ),
-//                      ),
-//
-//                    ],
-//                  ),
-//                ),
-
-
-
-
 
               ],
             ),
@@ -614,7 +438,7 @@ class _MainPageState extends State<MainPage> {
 
             /// 中间的圆形
             Container(
-              padding: EdgeInsets.only(top: 240, ),
+              padding: EdgeInsets.only(top: 236, ),
               alignment: Alignment.topCenter,
               child: Stack(
                 alignment: AlignmentDirectional.center,
