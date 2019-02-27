@@ -45,4 +45,11 @@ class FinoTextStyles {
     //fontWeight: FontWeight.bold,
   );
 
+  static const montserratMedium18Blue143 = TextStyle(
+    color: FinoColors.blue143,
+    fontSize: 18,
+    fontFamily: 'Montserrat-Medium',
+    fontWeight: FontWeight.w600,
+  );
+
 }

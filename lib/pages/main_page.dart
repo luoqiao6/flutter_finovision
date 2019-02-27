@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_finovision/utils/fino_colors.dart';
 import 'package:flutter_finovision/utils/fino_textStyles.dart';
+import 'package:flutter_finovision/pages/left_menu.dart';
 
 class MainPage extends StatefulWidget {
 
@@ -18,6 +19,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
 
     return Scaffold(
+      drawer: LeftMenu(),
       backgroundColor: FinoColors.extraBlue245,
       body: Center(
         child: Stack(
