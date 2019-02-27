@@ -24,4 +24,6 @@ class FinoColors {
 
   static const Color white = Color.fromARGB(255, 255, 255, 255);
 
+  static const Color blue244 = Color.fromARGB(255, 88, 116, 244);
+
 }
