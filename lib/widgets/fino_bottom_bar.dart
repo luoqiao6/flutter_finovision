@@ -63,7 +63,7 @@ class _FinoBottomBarState extends State<FinoBottomBar> {
 
                   Expanded(
                     child: Container(
-                      alignment: Alignment.centerRight,
+                      alignment: Alignment.center,
                       child: Text(
                         String.fromCharCode(Icons.home.codePoint),
                         style: TextStyle(
@@ -92,7 +92,7 @@ class _FinoBottomBarState extends State<FinoBottomBar> {
 
                   Expanded(
                     child: Container(
-                      alignment: Alignment.centerLeft,
+                      alignment: Alignment.center,
                       child: Text(
                         String.fromCharCode(Icons.import_contacts.codePoint),
                         style: TextStyle(
