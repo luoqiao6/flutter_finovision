@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_finovision/pages/home_page.dart';
 import 'package:flutter_finovision/pages/init_page.dart';
 import 'package:flutter_finovision/pages/main_page.dart';
-
+import 'package:flutter_finovision/pages/left_menu.dart';
 
 void main() => runApp(FinoApp());
 
@@ -15,7 +15,10 @@ class FinoApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MainPage(),//HomePage(),//InitPage(),
+      home: MainPage(),
+      routes: {
+        '/drawer': (BuildContext context) => LeftMenu(),
+      },//HomePage(),//InitPage(),
     );
   }
 }

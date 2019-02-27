@@ -14,11 +14,13 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey();
 
   @override
   Widget build(BuildContext context) {
 
     return Scaffold(
+      key: _scaffoldKey,
       drawer: LeftMenu(),
       backgroundColor: FinoColors.extraBlue245,
       body: Center(
@@ -413,12 +415,20 @@ class _MainPageState extends State<MainPage> {
                     child: Stack(
                       children: <Widget>[
 
-                        Container(
-                          alignment: Alignment.centerLeft,
-                          child: SvgPicture.asset(
-                            'res/images/menu_icon.svg',
-                            width: 25.63,
-                            //color: FinoColors.white,
+                        GestureDetector(
+                          onTap: () {
+                            print('menu');
+                            //Navigator.of(context).pushReplacementNamed('/drawer');
+                            //Scaffold.of(context).openDrawer();
+                            _scaffoldKey.currentState.openDrawer();
+                          },
+                          child: Container(
+                            alignment: Alignment.centerLeft,
+                            child: SvgPicture.asset(
+                              'res/images/menu_icon.svg',
+                              width: 25.63,
+                              //color: FinoColors.white,
+                            ),
                           ),
                         ),
 
