@@ -212,17 +212,16 @@ class _MainPageState extends State<MainPage> {
                  //mainAxisAlignment: MainAxisAlignment.center,
                  children: <Widget>[
 
-                   /// MEBERS
-                   GestureDetector(
-                     onTap: () {
-                       ///
-                       Navigator.of(context).pushReplacementNamed('/member_list');
-                     },
-                     child: Row(
-                       mainAxisAlignment: MainAxisAlignment.center,
-                       children: <Widget>[
+                   Row(
+                     mainAxisAlignment: MainAxisAlignment.center,
+                     children: <Widget>[
 
-                         Container(
+                       /// MEBERS
+                       GestureDetector(
+                         onTap: () {
+                           Navigator.of(context).pushReplacementNamed('/member_list');
+                         },
+                         child: Container(
                            width: 150,
                            height: 108,
                            alignment: Alignment.center,
@@ -258,52 +257,51 @@ class _MainPageState extends State<MainPage> {
                              ],
                            ),
                          ),
+                       ),
 
-                         Padding(
-                           padding: EdgeInsets.only(left: 27),
+                       Padding(
+                         padding: EdgeInsets.only(left: 27),
+                       ),
+
+                       /// PASSBOOK
+                       Container(
+                         width: 150,
+                         height: 108,
+                         alignment: Alignment.center,
+                         decoration: BoxDecoration(
+                           color: FinoColors.white,
+
+                           borderRadius: BorderRadius.all(
+                             Radius.circular(19),
+                           ),
                          ),
 
-                         /// PASSBOOK
-                         Container(
-                           width: 150,
-                           height: 108,
-                           alignment: Alignment.center,
-                           decoration: BoxDecoration(
-                             color: FinoColors.white,
+                         child: Column(
+                           //crossAxisAlignment: CrossAxisAlignment.center,
+                           mainAxisAlignment: MainAxisAlignment.center,
 
-                             borderRadius: BorderRadius.all(
-                               Radius.circular(19),
+                           children: <Widget>[
+
+                             Container(
+                               child: SvgPicture.asset(
+                                 'res/images/passbook_red.svg',
+                                 width: 48,
+                                 height: 33.6,
+                               ),
                              ),
-                           ),
 
-                           child: Column(
-                             //crossAxisAlignment: CrossAxisAlignment.center,
-                             mainAxisAlignment: MainAxisAlignment.center,
+                             Padding(
+                               padding: EdgeInsets.only(top: 20),
+                             ),
+                             Container(
+                               child: Text('PASSBOOK', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+                             ),
 
-                             children: <Widget>[
-
-                               Container(
-                                 child: SvgPicture.asset(
-                                   'res/images/passbook_red.svg',
-                                   width: 48,
-                                   height: 33.6,
-                                 ),
-                               ),
-
-                               Padding(
-                                 padding: EdgeInsets.only(top: 20),
-                               ),
-                               Container(
-                                 child: Text('PASSBOOK', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
-                               ),
-
-                             ],
-                           ),
+                           ],
                          ),
-                       ],
-                     ),
+                       ),
+                     ],
                    ),
-
 
                    Padding(
                      padding: EdgeInsets.only(top: 24),

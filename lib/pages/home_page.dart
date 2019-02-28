@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_finovision/utils/fino_colors.dart';
 import 'package:flutter_finovision/utils/fino_textStyles.dart';
+import 'package:flutter_finovision/widgets/left_menu.dart';
 
 class HomePage extends StatefulWidget {
 
@@ -13,12 +14,16 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey();
+
 
   @override
   Widget build(BuildContext context) {
 
     return Scaffold(
+      key: _scaffoldKey,
       backgroundColor: FinoColors.extraBlue245,
+      drawer: LeftMenu(),
       body: Center(
         child: Stack(
           children: <Widget>[
@@ -206,46 +211,56 @@ class _HomePageState extends State<HomePage> {
                  //crossAxisAlignment: CrossAxisAlignment.center,
                  //mainAxisAlignment: MainAxisAlignment.center,
                  children: <Widget>[
+
+
                    Row(
                      mainAxisAlignment: MainAxisAlignment.center,
                      children: <Widget>[
-                       /// MEBERS
-                       Container(
-                         width: 150,
-                         height: 108,
-                         alignment: Alignment.center,
-                         decoration: BoxDecoration(
-                           color: FinoColors.white,
 
-                           borderRadius: BorderRadius.all(
-                             Radius.circular(19),
+                       /// MEBERS
+                       GestureDetector(
+                         onTap: () {
+                           Navigator.of(context).pushReplacementNamed('/member_list');
+                         },
+                         child: Container(
+                           width: 150,
+                           height: 108,
+                           alignment: Alignment.center,
+                           decoration: BoxDecoration(
+                             color: FinoColors.white,
+
+                             borderRadius: BorderRadius.all(
+                               Radius.circular(19),
+                             ),
+                           ),
+
+                           child: Column(
+                             //crossAxisAlignment: CrossAxisAlignment.center,
+                             mainAxisAlignment: MainAxisAlignment.center,
+
+                             children: <Widget>[
+
+                               Container(
+                                 child: SvgPicture.asset(
+                                   'res/images/member_icon.svg',
+                                   width: 48,
+                                   height: 33.6,
+                                 ),
+                               ),
+
+                               Padding(
+                                 padding: EdgeInsets.only(top: 20),
+                               ),
+                               Container(
+                                 child: Text('MEBERS', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
+                               ),
+
+                             ],
                            ),
                          ),
-
-                         child: Column(
-                           //crossAxisAlignment: CrossAxisAlignment.center,
-                           mainAxisAlignment: MainAxisAlignment.center,
-
-                           children: <Widget>[
-
-                             Container(
-                               child: SvgPicture.asset(
-                                 'res/images/member_icon.svg',
-                                 width: 48,
-                                 height: 33.6,
-                               ),
-                             ),
-
-                             Padding(
-                               padding: EdgeInsets.only(top: 20),
-                             ),
-                             Container(
-                               child: Text('MEBERS', style: FinoTextStyles.montserratSemiBold14DarkBlue,),
-                             ),
-
-                           ],
-                         ),
                        ),
+
+
 
                        Padding(
                          padding: EdgeInsets.only(left: 27),
@@ -586,13 +601,18 @@ class _HomePageState extends State<HomePage> {
                     child: Stack(
                       children: <Widget>[
 
-                        Container(
-                          alignment: Alignment.centerLeft,
-                          child: SvgPicture.asset(
-                            'res/images/menu_icon.svg',
-                            width: 25.63,
-                            //height: 401,
-                            color: FinoColors.white,
+                        GestureDetector(
+                          onTap: () {
+                            _scaffoldKey.currentState.openDrawer();
+                          },
+                          child: Container(
+                            alignment: Alignment.centerLeft,
+                            child: SvgPicture.asset(
+                              'res/images/menu_icon.svg',
+                              width: 25.63,
+                              //height: 401,
+                              color: FinoColors.white,
+                            ),
                           ),
                         ),
 

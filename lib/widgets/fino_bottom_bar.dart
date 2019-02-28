@@ -62,18 +62,22 @@ class _FinoBottomBarState extends State<FinoBottomBar> {
                 children: <Widget>[
 
                   Expanded(
-                    child: Container(
-                      alignment: Alignment.center,
-                      child: Text(
-                        String.fromCharCode(Icons.home.codePoint),
-                        style: TextStyle(
-                          fontFamily: Icons.home.fontFamily,
-                          fontSize: 24,
-                          color: FinoColors.blue255,
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.of(context).pushReplacementNamed('/home');
+                      },
+                      child: Container(
+                        alignment: Alignment.center,
+                        child: Text(
+                          String.fromCharCode(Icons.home.codePoint),
+                          style: TextStyle(
+                            fontFamily: Icons.home.fontFamily,
+                            fontSize: 24,
+                            color: FinoColors.blue255,
+                          ),
                         ),
                       ),
                     ),
-
                   ),
 
                   Expanded(

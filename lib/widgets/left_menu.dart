@@ -49,22 +49,26 @@ class LeftMenuState extends State<LeftMenu> {
                   shrinkWrap: true,
                   children: <Widget>[
 
-                    Container(
-                      height: 56,
-                      padding: EdgeInsets.only(left: 18, right: 12),
-                      child: Row(
-                        children: <Widget>[
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context).pushReplacementNamed('/main');
+                      },
+                      child: Container(
+                        height: 56,
+                        padding: EdgeInsets.only(left: 18, right: 12),
+                        child: Row(
+                          children: <Widget>[
 
-                          Container(
-                            child: Text(
-                              String.fromCharCode(Icons.home.codePoint),
-                              style: TextStyle(
-                                fontFamily: Icons.account_circle.fontFamily,
-                                fontSize: 24,
-                                color: FinoColors.blue213,
+                            Container(
+                              child: Text(
+                                String.fromCharCode(Icons.home.codePoint),
+                                style: TextStyle(
+                                  fontFamily: Icons.home.fontFamily,
+                                  fontSize: 24,
+                                  color: FinoColors.blue213,
+                                ),
                               ),
                             ),
-                          ),
 
 //                      SvgPicture.asset(
 //                        'res/images/home_icon.svg',
@@ -72,27 +76,28 @@ class LeftMenuState extends State<LeftMenu> {
 //                        //height: 33.6,
 //                      ),
 
-                          Padding(
-                            padding: EdgeInsets.only(right: 23),
-                          ),
+                            Padding(
+                              padding: EdgeInsets.only(right: 23),
+                            ),
 
-                          Container(
-                            child: Text('Home', style: FinoTextStyles.montserratMedium18Blue143,),
-                          ),
+                            Container(
+                              child: Text('Home', style: FinoTextStyles.montserratMedium18Blue143,),
+                            ),
 
-                          Expanded(
-                            child: Container(
-                              alignment: Alignment.centerRight,
-                              child: SvgPicture.asset(
-                                'res/images/more_icon.svg',
-                                width: 8,
-                                //height: 33.6,
+                            Expanded(
+                              child: Container(
+                                alignment: Alignment.centerRight,
+                                child: SvgPicture.asset(
+                                  'res/images/more_icon.svg',
+                                  width: 8,
+                                  //height: 33.6,
+                                ),
                               ),
                             ),
-                          ),
 
 
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
