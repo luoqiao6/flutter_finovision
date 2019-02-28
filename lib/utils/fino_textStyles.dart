@@ -3,6 +3,13 @@ import 'package:flutter_finovision/utils/fino_colors.dart';
 
 class FinoTextStyles {
 
+  static const montserratSemiBold13DarkBlue = TextStyle(
+    color: FinoColors.darkBlue68,
+    fontSize: 13,
+    fontFamily: 'Montserrat-Bold',
+    fontWeight: FontWeight.w600,
+  );
+
   static const montserratSemiBold14DarkBlue = TextStyle(
     color: FinoColors.darkBlue68,
     fontSize: 14,
@@ -36,6 +43,13 @@ class FinoTextStyles {
     fontSize: 11,
     fontFamily: 'Montserrat-Bold',
     fontWeight: FontWeight.bold,
+  );
+
+  static const montserratBold13Blue161 = TextStyle(
+    color: FinoColors.blue161,
+    fontSize: 13,
+    fontFamily: 'Montserrat-Bold',
+    fontWeight: FontWeight.w600,
   );
 
   static const montserratSemiBold12Blue161 = TextStyle(

@@ -156,7 +156,12 @@ class MemberListPageState extends State<MemberListPage> {
 
                       return Padding(
                         padding: EdgeInsets.only(bottom: 20),
-                        child: MemberListItem(index: index,),
+                        child: GestureDetector(
+                          onTap: () {
+                            Navigator.of(context).pushReplacementNamed('/profile');
+                          },
+                          child: MemberListItem(index: index,),
+                        ),
                       );
 
                     },
