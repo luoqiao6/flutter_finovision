@@ -29,5 +29,3 @@ UI 设计来自 [http://freebielobster.com](http://freebielobster.com/index.php/
 <br/>
 <br/>
 <img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/profile_page.png" alt="" style="width:50%;">
-<br/>
-<br/>
