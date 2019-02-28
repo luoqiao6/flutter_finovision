@@ -16,17 +16,18 @@ UI 设计来自 [http://freebielobster.com](http://freebielobster.com/index.php/
 <br/>
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/left_menu.png" alt="welcome page" style="max-width:50%;">
+<img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/left_menu.png" alt="left menu" style="max-width:50%;">
 <br/>
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/main_page.png" alt=" page" style="max-width:50%;">
+<img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/main_page.png" alt="main page" style="max-width:50%;">
 <br/>
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/member_list.png" alt="welcome page" style="max-width:50%;">
+<img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/member_list.png" alt="" style="width:50%;">
 <br/>
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/profile_page.png" alt="welcome page" style="max-width:50%;">
-
+<img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/profile_page.png" alt="" style="width:50%;">
+<br/>
+<br/>
