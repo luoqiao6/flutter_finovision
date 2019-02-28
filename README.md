@@ -9,13 +9,23 @@ UI 设计来自 [http://freebielobster.com](http://freebielobster.com/index.php/
 
 ![welcome page](https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/init_page.png)
 <br/>
+<br/>
+<br/>
 ![welcome page](https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/home_page.png)
+<br/>
+<br/>
 <br/>
 ![welcome page](https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/left_menu.png)
 <br/>
+<br/>
+<br/>
 ![welcome page](https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/main_page.png)
 <br/>
+<br/>
+<br/>
 ![welcome page](https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/profile_page.png)
-
+<br/>
+<br/>
+<br/>
 
 
