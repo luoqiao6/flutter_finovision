@@ -1,8 +1,8 @@
 # flutter_finovision
 
-这是一个练习项目，只实现了 UI 设计，不包含业务逻辑。
+这是一个练习性项目，只实现了 UI 设计，不包含业务逻辑。
 
-在 IPhone 8 plus 下开发，其他屏幕未做适配，页面显示可能有问题。
+根据UI设计的尺寸，在 IPhone 8 plus 下开发，其他屏幕未做适配，页面显示可能有问题。
 
 UI 设计来自 [http://freebielobster.com](http://freebielobster.com/index.php/home/post/Finovsion-App-Freebie)，仅供学习使用。
 
