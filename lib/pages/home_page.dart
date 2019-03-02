@@ -30,9 +30,7 @@ class _HomePageState extends State<HomePage> {
             /// 主要内容
             Column(
               children: <Widget>[
-
                 /// 蓝色背景
-
                 Container(
                   height: 201,
                   color: FinoColors.blue177,

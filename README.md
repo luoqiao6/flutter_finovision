@@ -6,8 +6,10 @@
 
 UI 设计来自 [http://freebielobster.com](http://freebielobster.com/index.php/home/post/Finovsion-App-Freebie)，仅供学习使用。
 
+<img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/finovision.png" alt="init page" style="max-width:50%;">
 
 
+<!--
 <img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/init_page.png" alt="init page" style="max-width:50%;">
 <br/>
 <br/>
@@ -29,3 +31,4 @@ UI 设计来自 [http://freebielobster.com](http://freebielobster.com/index.php/
 <br/>
 <br/>
 <img src="https://raw.githubusercontent.com/luoqiao6/flutter_finovision/master/screenshot/profile_page.png" alt="" style="width:50%;">
+-->
